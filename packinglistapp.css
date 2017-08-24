@@ -12,7 +12,13 @@
     
 }
 
-.display-3, .questions {
+.hero {
     padding: 20px; 
     margin-left: 10px; 
+}
+
+#home {
+  font-size: 70px;
+  font-weight: 0px;
+  line-height: ;
 }
