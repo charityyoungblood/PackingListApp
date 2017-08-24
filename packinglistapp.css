@@ -2,3 +2,7 @@ h1 {
     color: #000000;
     
 }
+
+textarea {
+    width: 50%;
+}
