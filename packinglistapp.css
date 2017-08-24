@@ -12,6 +12,6 @@
     
 }
 
-h1, body {
+.jumbotron, .questions {
     margin-right: 30px; 
 }
