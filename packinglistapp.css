@@ -12,6 +12,7 @@
     
 }
 
-.jumbotron, .questions {
-    margin-right: 30px; 
+.display-3, .questions {
+    padding: 20px; 
+    margin-left: 10px; 
 }
