@@ -1,8 +1,6 @@
-h1 {
-    color: #000000;
-    
-}
-
-textarea {
-    width: 50%;
+/* for back button to appear at top right of page */
+#back {
+    position: absolute; 
+    top: 50%; 
+    right: 40%; 
 }
