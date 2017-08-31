@@ -29,6 +29,10 @@
   line-height: ;
 }
 
+#duration {
+    width: 19%;  
+}
+
 #results {
     margin-top: 20px; 
     margin-left: 140px; 
