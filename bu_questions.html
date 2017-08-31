@@ -21,24 +21,29 @@
         </ul>
     </nav>
     <h1 class="business">Let's find out what you need to bring for your trip!</h1>
-    <div>
-            <ol id="business-questions">
-                <li>Do you identify as male or female?
+    <div id="business-questions">
+            <ol>
+                 <div id="space">
+                    <li>&nbsp Do you identify as male or female?
+                </div>
+                    &nbsp <input type="radio" name="gender">&nbsp Male
                     <br>
-                    <input type="radio" name="gender"> Male
-                    <br>
-                    <input type="radio" name="gender"> Female
+                    
+                    &nbsp <input type="radio" name="gender">&nbsp Female
                 </li>
-                <li>Where are you going?</li>
-                <input type="text">
-                <li>Are you attending any formal events on your trip?
+                <br>
+
+                <li>&nbsp Where are you going?<br>&nbsp <input id="location" type="text"></li>
+                <br>
+                <li>&nbsp Are you attending any formal events on your trip?
                     <br>
-                    <input type="radio" name="answer"> Yes
+                    &nbsp <input type="radio" name="answer">&nbsp Yes
                     <br>
-                    <input type="radio" name="answer"> No
+                    &nbsp <input type="radio" name="answer">&nbsp No
                 </li>
-                <li>How long is your trip?
-                    <select>
+                <br>
+                <li>&nbsp How long is your trip?
+                    <select id="duration">
                         <option value='1 day'>1 day</option>
                         <option value='2 days'>2 days</option>
                         <option value='3 days'>3 days</option>
@@ -53,7 +58,9 @@
 
             </ol>
     </div>
-    <a class="btn btn-primary btn-lg" id="results" href="results.html" role="button">Submit</a>
+    <div id="results-2">
+         <a class="btn btn-primary btn-lg" id="results-2" href="results.html" role="button">Submit</a>
+    </div>
 
     <br>
     <br>

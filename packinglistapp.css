@@ -11,6 +11,14 @@
     margin-top: 100px;
     
 }
+
+.space {
+    margin-top: 20px; 
+}
+
+#location {
+    width: 35%; 
+}
 .pleasure, .business {
     margin-left: 270px; 
 }
@@ -36,4 +44,9 @@
 #results {
     margin-top: 20px; 
     margin-left: 140px; 
+}
+
+#results-2 {
+    margin-top: 20px; 
+    margin-left: 320px; 
 }
