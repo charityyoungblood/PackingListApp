@@ -19,8 +19,17 @@
     margin-left: 10px; 
 }
 
+#pleasure-questions, #business-questions {
+    margin-top: 45px;
+    margin-left: 510px; 
+}
 #home {
   font-size: 70px;
   font-weight: 0px;
   line-height: ;
+}
+
+#results {
+    margin-top: 20px; 
+    margin-left: 120px; 
 }
