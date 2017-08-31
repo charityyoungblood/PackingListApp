@@ -8,8 +8,23 @@
 /* for h1 on questions page */
 
 .pleasure, .business, .results {
-    margin-top: 100px;
-    
+    margin-top: 100px; 
+}
+#content {
+    width: 290px; 
+    float: left; 
+    padding: 5px 15px; 
+}
+#middle {
+    width: 294px; 
+    float: left; 
+    padding: 5px 15px; 
+    margin: 0px 5px 5px 5px; 
+}
+#sidebar {
+    width: 270px; 
+    padding: 5px 15px; 
+    float: left; 
 }
 
 h2 {
