@@ -38,6 +38,15 @@
     margin: 0px 5px 5px 5px; 
 }
 
+#sidebar-2 {
+    width: 240px; 
+    padding: 5px 15px; 
+    float: left; 
+    margin-right: 700px; 
+    margin-bottom: 800px;
+    padding-bottom: 1400px; 
+}
+
 #results-center {
     background-color: #3FBFBF;
     margin-left: 34px; 
