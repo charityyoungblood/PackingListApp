@@ -20,7 +20,11 @@
 }
 
 .result-center .documentation {
-    margin-left: 40px; 
+    margin-left: 19px; 
+}
+
+.result-center .bathroom {
+    margin-left: 65px; 
 }
 #content {
     width: 290px; 
