@@ -26,24 +26,24 @@
             <ol>
                 <li>&nbsp Do you identify as male or female?
                     <br>
-                    &nbsp <input type="radio" name="gender" id="male-gender">&nbsp Male
+                    &nbsp <input type="radio" name="gender" id="male-gender" required>&nbsp Male
                     <br>
                     
-                    &nbsp <input type="radio" name="gender">&nbsp Female
+                    &nbsp <input type="radio" name="gender" id="female-gender" required>&nbsp Female
                 </li>
                 <br>
 
-                <li>&nbsp Where are you going?<br>&nbsp <input id="location" type="text"></li>
+                <li>&nbsp Where are you going?<br>&nbsp <input id="location" type="text" required></li>
                 <br>
                 <li>&nbsp Are you attending any formal events on your trip?
                     <br>
-                    &nbsp <input type="radio" name="answer">&nbsp Yes
+                    &nbsp <input type="radio" name="answer" required>&nbsp Yes
                     <br>
-                    &nbsp <input type="radio" name="answer">&nbsp No
+                    &nbsp <input type="radio" name="answer" required>&nbsp No
                 </li>
                 <br>
                 <li>&nbsp How long is your trip?
-                    <select id="duration">
+                    <select id="duration" required>
                         <option value='1 day'>1 day</option>
                         <option value='2 days'>2 days</option>
                         <option value='3 days'>3 days</option>
